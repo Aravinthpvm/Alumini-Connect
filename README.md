@@ -48,9 +48,9 @@ Render provides `PORT` automatically, and the backend now listens on that value.
 
 Set `VITE_API_BASE_URL` to your Render backend URL, for example:
 
-- `https://your-backend-name.onrender.com/api`
+- `https://alumni-portal-backend-k7td.onrender.com/api`
 
-The deployed frontend currently runs at `https://ouralumini.netlify.app`, which is allowed by backend CORS.
+The deployed frontend currently runs at `https://ouralumini.netlify.app`, which is allowed by backend CORS. The `/api` suffix is required because the backend controllers are mounted under `/api`.
 
 ## Run Locally
 
