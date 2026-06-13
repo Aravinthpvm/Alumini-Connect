@@ -3,7 +3,6 @@ import { Link, useNavigate, useSearchParams } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { authService } from '../services/services';
 import { extractError } from '../utils/helpers';
-import { FiStar } from 'react-icons/fi';
 
 const studentFields = [
     { name: 'fullName', label: 'Full Name', type: 'text', placeholder: 'Arjun Kumar' },
@@ -67,7 +66,8 @@ export default function Register() {
             <div className="auth-card" style={{ maxWidth: 520 }}>
                 <div className="auth-card__inner">
                     <div className="auth-logo">
-                        <h1><FiStar style={{ display: 'inline', verticalAlign: 'middle', marginRight: 8 }} />AlumniConnect</h1>
+                        <img src="/alumni-connect-logo.png" alt="" className="auth-logo__image" />
+                        <h1>AlumniConnect</h1>
                         <p>Join the network. Shape your future.</p>
                     </div>
 

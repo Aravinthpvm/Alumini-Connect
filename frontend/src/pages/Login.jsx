@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { authService } from '../services/services';
 import { extractError } from '../utils/helpers';
-import { FiMail, FiLock, FiStar } from 'react-icons/fi';
+import { FiMail, FiLock } from 'react-icons/fi';
 
 export default function Login() {
     const [form, setForm] = useState({ email: '', password: '' });
@@ -34,7 +34,8 @@ export default function Login() {
             <div className="auth-card">
                 <div className="auth-card__inner">
                     <div className="auth-logo">
-                        <h1><FiStar style={{ display: 'inline', verticalAlign: 'middle', marginRight: 8 }} />AlumniConnect</h1>
+                        <img src="/alumni-connect-logo.png" alt="" className="auth-logo__image" />
+                        <h1>AlumniConnect</h1>
                         <p>Welcome back! Sign in to your account</p>
                     </div>
 

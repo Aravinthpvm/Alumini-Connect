@@ -143,6 +143,15 @@ ul { list-style: none; }
   white-space: nowrap;
 }
 
+.navbar__logo {
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  object-fit: cover;
+  background: #fff;
+  flex-shrink: 0;
+}
+
 .navbar__brand svg { font-size: 1.5rem; color: var(--clr-primary); fill: var(--clr-primary); }
 
 .navbar__nav {
@@ -562,6 +571,14 @@ h4 { font-size: 1rem; font-weight: 600; }
 }
 
 .auth-logo { text-align: center; margin-bottom: 32px; }
+.auth-logo__image {
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+  border-radius: 18px;
+  background: #fff;
+  margin: 0 auto 14px;
+}
 .auth-logo h1 { font-size: 1.75rem; font-weight: 900; background: var(--grad-primary); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
 .auth-logo p { color: var(--txt-secondary); font-size: 0.9rem; margin-top: 6px; }
 

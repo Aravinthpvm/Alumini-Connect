@@ -15,7 +15,7 @@ export default function Navbar() {
     return (
         <nav className="navbar">
             <Link to="/" className="navbar__brand">
-                <FiStar />
+                <img src="/alumni-connect-logo.png" alt="" className="navbar__logo" />
                 AlumniConnect
             </Link>
 
