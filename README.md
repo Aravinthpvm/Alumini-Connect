@@ -2,6 +2,11 @@
 
 Full-stack alumni portal with a Spring Boot backend and a Vite + React frontend.
 
+## Live Deployment
+
+- Frontend: `https://ouralumini.netlify.app`
+- Backend API: `https://alumni-portal-backend-k7td.onrender.com/api`
+
 ## Tech Stack
 
 - Backend: Spring Boot 3.2, Spring Security, MongoDB, JWT
