@@ -44,6 +44,14 @@ Set these Render environment variables:
 
 Render provides `PORT` automatically, and the backend now listens on that value.
 
+### Frontend on Netlify
+
+Set `VITE_API_BASE_URL` to your Render backend URL, for example:
+
+- `https://your-backend-name.onrender.com/api`
+
+The deployed frontend currently runs at `https://ouralumini.netlify.app`, which is allowed by backend CORS.
+
 ## Run Locally
 
 ### Backend Run
