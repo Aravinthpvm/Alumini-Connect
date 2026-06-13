@@ -3,6 +3,8 @@ services:
     name: alumni-portal-backend
     runtime: docker
     rootDir: backend
+    dockerContext: backend
+    dockerfilePath: backend/Dockerfile
     envVars:
       - key: MONGODB_URI
         sync: false
