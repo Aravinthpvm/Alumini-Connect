@@ -30,6 +30,20 @@ Required backend value:
 
 - `JWT_SECRET` - set this to a long, random secret before starting the backend
 
+## Deployment
+
+### Backend on Render
+
+The repository includes a root `render.yaml` configured to deploy the Spring Boot backend from `backend/`.
+
+Set these Render environment variables:
+
+- `MONGODB_URI`
+- `JWT_SECRET`
+- `MONGODB_DATABASE` if you want a database name other than `alumniportal`
+
+Render provides `PORT` automatically, and the backend now listens on that value.
+
 ## Run Locally
 
 ### Backend Run
